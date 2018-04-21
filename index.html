@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Remoção de email</title>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+	<section class="content">
+		<article class="container">
+			<a href="http://www.agaphone.com.br/" title="Agaphone">
+				<img src="http://agaphone.com.br/wp-content/uploads/2017/12/logo.png" alt="Agaphone" class="logo">
+			</a>
+			<form action="send.php" method="get" class="form-email" name="formulario" id="formulario">
+				<p class="text">Confirme seu email para remoção:</p>
+				<input type="text" id="email" name="email" required="required" disabled="disabled" class="closed-box">
+				<p class="message-error">
+					- Insira um email válido.
+				</p>
+				<input type="submit" name="submit" class="enviar" value="Remover">
+			</form>
+		</article>	
+	</section>
+	<script src="app.js"></script>
+	</body>
+</html>
